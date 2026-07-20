@@ -56,7 +56,7 @@ function Index() {
         <div className="absolute inset-0 bg-gradient-to-b from-background/40 via-background/30 to-background" />
 
         {/* ghost logo watermark */}
-        <Logo className="pointer-events-none absolute -right-24 top-1/2 h-[110vh] w-auto -translate-y-1/2 opacity-[0.06]" />
+        <Logo className="pointer-events-none absolute -right-24 top-1/2 h-[110vh] w-auto -translate-y-1/2 opacity-[0.06] object-contain shrink-0 max-w-none" />
 
         <div className="relative z-10 mx-auto flex min-h-screen max-w-[1800px] flex-col justify-end px-6 pb-24 pt-32 lg:px-12 lg:pb-32">
           <div className="mb-8 flex items-center gap-4 text-[11px] font-semibold uppercase tracking-[0.3em] text-hit-yellow">

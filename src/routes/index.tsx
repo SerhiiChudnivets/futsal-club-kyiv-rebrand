@@ -4,7 +4,7 @@ import news1 from "@/assets/news-1.jpg";
 import news2 from "@/assets/news-2.jpg";
 import news3 from "@/assets/news-3.jpg";
 import arena from "@/assets/arena.jpg";
-import logo from "@/assets/hit-logo.png.asset.json";
+import logo from "@/assets/hit-logo.png";
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -13,7 +13,7 @@ export const Route = createFileRoute("/")({
 const NAV = ["Клуб", "Команда", "Матчі", "Новини", "Медіа", "Магазин"];
 
 function Logo({ className = "" }: { className?: string }) {
-  return <img src={logo.url} alt="ФК ХІТ Київ" className={className} />;
+  return <img src={logo} alt="ФК ХІТ Київ" className={className} />;
 }
 
 function Index() {

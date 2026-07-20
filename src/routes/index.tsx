@@ -51,7 +51,7 @@ function Index() {
           alt="Гравець ФК ХІТ Київ"
           width={1920}
           height={1080}
-          className="absolute inset-0 h-full w-full object-cover"
+          className="absolute inset-0 h-full w-full object-cover object-[center_25%]"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-background/40 via-background/30 to-background" />
 

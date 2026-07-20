@@ -58,7 +58,7 @@ function Index() {
         {/* ghost logo watermark */}
         <Logo className="pointer-events-none absolute opacity-[0.06] object-contain left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-[600px] h-auto lg:-right-24 lg:left-auto lg:translate-x-0 lg:h-[110vh] lg:w-auto lg:max-w-none" />
 
-        <div className="relative z-10 mx-auto flex min-h-screen max-w-[1800px] flex-col justify-end px-6 pb-24 pt-32 lg:px-12 lg:pb-32">
+        <div className="relative z-10 mx-auto flex min-h-screen max-w-[1800px] flex-col justify-end px-6 pb-12 pt-24 lg:px-12 lg:pb-32 lg:pt-32">
           <div className="mb-8 flex items-center gap-4 text-[11px] font-semibold uppercase tracking-[0.3em] text-hit-yellow">
             <span className="h-1.5 w-1.5 rounded-full bg-hit-yellow" />
             Favbet Екстра-ліга · Сезон 2024/25
